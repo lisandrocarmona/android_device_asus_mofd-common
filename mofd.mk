@@ -61,8 +61,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     bspcapability \
     camera.mofd_v1 \
-    libshim_camera \
-    Snap
+    libshim_camera
 
 # Charger
 PRODUCT_PACKAGES += \
@@ -91,7 +90,9 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
 
 # Flip Cover App
 PRODUCT_PACKAGES += \
-    FlipFlap
+    FlipFlap \
+    masquerade \
+    su
 
 # GPS
 PRODUCT_COPY_FILES += \

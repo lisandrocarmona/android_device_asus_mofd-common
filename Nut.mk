@@ -1,10 +1,6 @@
 #All Nutty Optimizations
 
-#Custom Packages
-PRODUCT_PACKAGES += \
-    masquerade \
-    FlipFlap \
-    su
+WITH_SU := true
 
 # OMS Verified
 PRODUCT_PROPERTY_OVERRIDES += \
