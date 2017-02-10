@@ -1,5 +1,6 @@
 #All Nutty Optimizations
 
+# Inbuilt SU
 WITH_SU := true
 
 # OMS Verified
@@ -21,10 +22,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	debug.sf.hw=1 \
 	debug.performance.tuning=1 \
 	video.accelerate.hw=1 \
-	windowsmgr.max_events_per_sec=140 \
+	windowsmgr.max_events_per_sec=145 \
 	ro.min_pointer_dur=8 \
-	ro.max.fling_velocity=13000 \
-	ro.min.fling_velocity=7500 \
+	ro.max.fling_velocity=14000 \
+	ro.min.fling_velocity=8000 \
 	media.stagefright.enable-player=true \
 	media.stagefright.enable-meta=true \
 	media.stagefright.enable-scan=true \

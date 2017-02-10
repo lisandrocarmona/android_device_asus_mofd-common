@@ -88,8 +88,9 @@ PRODUCT_PACKAGES += \
 ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.frp.pst=/dev/block/by-name/persistent
 
-# Flip Cover App
+# Apps
 PRODUCT_PACKAGES += \
+    Snap \
     FlipFlap \
     masquerade \
     su
