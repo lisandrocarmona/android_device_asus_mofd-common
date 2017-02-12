@@ -225,3 +225,4 @@ WIFI_DRIVER_FW_PATH_STA     := "/system/etc/firmware/fw_bcmdhd.bin"
 # Use the non-open-source parts, if they're present
 -include vendor/asus/mofd-common/BoardConfigVendor.mk
 -include device/asus/mofd-common/Nut.mk
+-include device/asus/mofd-common/Prop.mk
