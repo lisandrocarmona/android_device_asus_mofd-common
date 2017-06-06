@@ -33,8 +33,8 @@ PRODUCT_PROPERTY_OVERRIDE += \
 
 # Volume Control Resolution
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.config.vc_call_vol_steps=14 \
-	ro.config.media_vol_steps=30
+	ro.config.vc_call_vol_steps=20 \
+	ro.config.media_vol_steps=20
 
 # Battery Stuff
 PRODUCT_PROPERTY_OVERRIDES += \
