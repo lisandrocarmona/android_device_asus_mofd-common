@@ -102,7 +102,7 @@ namespace android {
 #define VDBG 0
 
 // Enable RILC log
-#define RILC_LOG 1
+#define RILC_LOG 0
 
 #if RILC_LOG
     #define startRequest           sprintf(printBuf, "(")
