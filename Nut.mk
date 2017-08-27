@@ -1,7 +1,7 @@
 #All Nutty Optimizations
 
-# Inbuilt SU
-WITH_SU := true
+# Pixel Launcher
+WITH_LAUNCHER3 := true
 
 # OMS Verified
 PRODUCT_PROPERTY_OVERRIDES += \
